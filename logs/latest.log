@@ -1,5 +1,5 @@
-[17:28:24] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
-[17:28:24] [main/INFO]: Loading 85 mods:
+[17:33:48] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
+[17:33:48] [main/INFO]: Loading 85 mods:
 	- fabric-api 0.100.4+1.21
 	   |-- fabric-api-base 0.4.42+6573ed8cd1
 	   |-- fabric-api-lookup-api-v1 1.6.67+b5597344d1
@@ -100,72 +100,62 @@
 	   \-- org_yaml_snakeyaml 2.2
 	- java 22
 	- minecraft 1.21
-[17:28:24] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/thomas/Documents/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[17:28:24] [main/INFO]: Compatibility level set to JAVA_17
-[17:28:24] [main/INFO]: Compatibility level set to JAVA_21
-[17:28:25] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[17:28:32] [main/INFO]: Loading extensions...
-[17:28:32] [main/INFO]: Loaded 0 extension(s)
-[17:28:32] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:28:34] [main/INFO]: Loaded 1290 recipes
-[17:28:34] [main/INFO]: Loaded 1399 advancements
-[17:28:34] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.195 ms
-[17:28:34] [Server thread/INFO]: Starting minecraft server version 1.21
-[17:28:34] [Server thread/INFO]: Loading properties
-[17:28:34] [Server thread/INFO]: Default game type: SURVIVAL
-[17:28:34] [Server thread/INFO]: Generating keypair
-[17:28:35] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:28:35] [Server thread/INFO]: Using epoll channel type
-[17:28:35] [Server thread/INFO]: Preparing level "world"
-[17:28:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:28:37] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[17:28:37] [Server thread/INFO]: Time elapsed: 505 ms
-[17:28:37] [Server thread/INFO]: Done (1.958s)! For help, type "help"
-[17:28:37] [Server thread/INFO]: Took 35ms to boot Floodgate
-[17:28:37] [Server thread/INFO]: ******************************************
-[17:28:37] [Server thread/INFO]: 
-[17:28:37] [Server thread/INFO]: Loading Geyser version 2.4.0-b584 (git-master-ca2312c) (git-master-ca2312c)
-[17:28:37] [Server thread/INFO]: 
-[17:28:37] [Server thread/INFO]: ******************************************
-[17:28:39] [epollEventLoopGroup-3-1/INFO]: Started Geyser on 0.0.0.0:45298
-[17:28:39] [Server thread/INFO]: Done (2.295s)! Run /geyser help for help!
-[17:28:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2348ms or 46 ticks behind
-[17:30:28] [Server thread/INFO]: ---- Showing Help For: Geyser (Page 1/1) ----[0m
-[17:30:28] [Server thread/INFO]: [33;1m/geyser ?[37;1m: Shows help for all registered commands.[0m
-[17:30:28] [Server thread/INFO]: [33;1m/geyser connectiontest[37;1m: geyser.commands.connectiontest.desc[0m
-[17:30:28] [Server thread/INFO]: [33;1m/geyser dump[37;1m: Dumps Geyser debug information for bug reports.[0m
-[17:30:28] [Server thread/INFO]: [33;1m/geyser help[37;1m: Shows help for all registered commands.[0m
-[17:30:28] [Server thread/INFO]: [33;1m/geyser list[37;1m: List all players connected through Geyser.[0m
-[17:30:28] [Server thread/INFO]: [33;1m/geyser reload[37;1m: Reloads the Geyser configurations. Kicks all players when used![0m
-[17:30:28] [Server thread/INFO]: [33;1m/geyser version[37;1m: Shows the current Geyser version and checks for updates.[0m
-[17:30:35] [ForkJoinPool.commonPool-worker-5/INFO]: Testing server connection to  with port: 45298 now. Please wait...[0m
-[17:30:38] [ForkJoinPool.commonPool-worker-5/INFO]: Your server is likely unreachable from outside the network![0m
-[17:30:38] [ForkJoinPool.commonPool-worker-5/INFO]: Got the error message: Connection timed out[0m
-[17:30:38] [ForkJoinPool.commonPool-worker-5/INFO]: If you still face issues, check the setup guide for instructions: https://wiki.geysermc.org/geyser/setup/[0m
-[17:30:38] [ForkJoinPool.commonPool-worker-5/INFO]: If that does not work, see https://wiki.geysermc.org/geyser/fixing-unable-to-connect-to-world/, or contact us on Discord: https://discord.gg/geysermc[0m
-[17:32:04] [Server thread/INFO]: The port you are testing with (35298) is not the same as you set in your Geyser configuration (45298)[0m
-[17:32:04] [Server thread/INFO]: Re-run the command with the port in the config, or change the `bedrock` `port` in the config.[0m
-[17:32:04] [ForkJoinPool.commonPool-worker-2/INFO]: Testing server connection to 81.86.18.123 with port: 35298 now. Please wait...[0m
-[17:32:09] [ForkJoinPool.commonPool-worker-2/INFO]: Your server is likely unreachable from outside the network![0m
-[17:32:09] [ForkJoinPool.commonPool-worker-2/INFO]: Got the error message: Connection timed out[0m
-[17:32:09] [ForkJoinPool.commonPool-worker-2/INFO]: If you still face issues, check the setup guide for instructions: https://wiki.geysermc.org/geyser/setup/[0m
-[17:32:09] [ForkJoinPool.commonPool-worker-2/INFO]: If that does not work, see https://wiki.geysermc.org/geyser/fixing-unable-to-connect-to-world/, or contact us on Discord: https://discord.gg/geysermc[0m
-[17:32:19] [ForkJoinPool.commonPool-worker-2/INFO]: Testing server connection to 81.86.18.123 with port: 45298 now. Please wait...[0m
-[17:32:22] [ForkJoinPool.commonPool-worker-2/INFO]: Your server is likely unreachable from outside the network![0m
-[17:32:22] [ForkJoinPool.commonPool-worker-2/INFO]: Got the error message: Connection timed out[0m
-[17:32:22] [ForkJoinPool.commonPool-worker-2/INFO]: If you still face issues, check the setup guide for instructions: https://wiki.geysermc.org/geyser/setup/[0m
-[17:32:22] [ForkJoinPool.commonPool-worker-2/INFO]: If that does not work, see https://wiki.geysermc.org/geyser/fixing-unable-to-connect-to-world/, or contact us on Discord: https://discord.gg/geysermc[0m
-[17:32:28] [Server thread/INFO]: Stopping the server
-[17:32:28] [Server thread/INFO]: Shutting down Geyser.
-[17:32:29] [Server thread/INFO]: Geyser shutdown successfully.
-[17:32:29] [WebSocketConnectReadThread-73/INFO]: The skin uploader has been closed
-[17:32:31] [Server thread/INFO]: Stopping server
-[17:32:31] [Server thread/INFO]: Saving players
-[17:32:31] [Server thread/INFO]: Saving worlds
-[17:32:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:32:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:32:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:32:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:32:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:32:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:32:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:33:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/thomas/Documents/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[17:33:48] [main/INFO]: Compatibility level set to JAVA_17
+[17:33:48] [main/INFO]: Compatibility level set to JAVA_21
+[17:33:49] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[17:33:56] [main/INFO]: Loading extensions...
+[17:33:56] [main/INFO]: Loaded 0 extension(s)
+[17:33:56] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:33:57] [main/INFO]: Loaded 1290 recipes
+[17:33:58] [main/INFO]: Loaded 1399 advancements
+[17:33:58] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 5.683 ms
+[17:33:58] [Server thread/INFO]: Starting minecraft server version 1.21
+[17:33:58] [Server thread/INFO]: Loading properties
+[17:33:58] [Server thread/INFO]: Default game type: SURVIVAL
+[17:33:58] [Server thread/INFO]: Generating keypair
+[17:33:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:33:58] [Server thread/INFO]: Using epoll channel type
+[17:33:58] [Server thread/INFO]: Preparing level "world"
+[17:34:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:34:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[17:34:00] [Server thread/INFO]: Time elapsed: 462 ms
+[17:34:00] [Server thread/INFO]: Done (1.888s)! For help, type "help"
+[17:34:00] [Server thread/INFO]: Took 40ms to boot Floodgate
+[17:34:00] [Server thread/INFO]: ******************************************
+[17:34:00] [Server thread/INFO]: 
+[17:34:00] [Server thread/INFO]: Loading Geyser version 2.4.0-b584 (git-master-ca2312c) (git-master-ca2312c)
+[17:34:00] [Server thread/INFO]: 
+[17:34:00] [Server thread/INFO]: ******************************************
+[17:34:03] [epollEventLoopGroup-3-1/INFO]: Started Geyser on 0.0.0.0:19132
+[17:34:03] [Server thread/INFO]: Done (2.265s)! Run /geyser help for help!
+[17:34:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2323ms or 46 ticks behind
+[17:34:23] [epollEventLoopGroup-4-1/INFO]: Player connected with username Riskyboii7523
+[17:34:23] [localSession-7-1/INFO]: Riskyboii7523 (logged in as: Riskyboii7523) has connected to the Java server
+[17:34:24] [pool-4-thread-1/INFO]: Floodgate player who is logged in as .Riskyboii7523 00000000-0000-0000-0009-01f485a4f228 joined
+[17:34:24] [Server thread/INFO]: .Riskyboii7523[/104.28.157.181:0] logged in with entity id 43 at (-67.5, 83.0, 51.5)
+[17:34:24] [Server thread/INFO]: Floodgate player logged in as .Riskyboii7523 joined (UUID: 00000000-0000-0000-0009-01f485a4f228)
+[17:34:24] [Server thread/INFO]: .Riskyboii7523 joined the game
+[17:34:51] [Geyser Fabric connection thread-6-2/INFO]: Floodgate player logged in as .Riskyboii7523 disconnected
+[17:34:51] [localSession-7-1/INFO]: Riskyboii7523 has disconnected from the Java server because of Bedrock client disconnected
+[17:34:51] [Server thread/INFO]: .Riskyboii7523 lost connection: Disconnected
+[17:34:51] [Server thread/INFO]: .Riskyboii7523 left the game
+[17:36:09] [User Authenticator #1/INFO]: UUID of player RiskyINIT is ba656fe4-0408-440c-aa7e-056849944e0f
+[17:36:10] [Server thread/INFO]: RiskyINIT[/127.0.0.1:55932] logged in with entity id 284 at (-57.76255545629883, 80.0, 48.98129218325161)
+[17:36:10] [Server thread/INFO]: RiskyINIT joined the game
+[17:36:18] [Server thread/INFO]: RiskyINIT lost connection: Disconnected
+[17:36:18] [Server thread/INFO]: RiskyINIT left the game
+[17:36:38] [Server thread/INFO]: Stopping the server
+[17:36:38] [Server thread/INFO]: Shutting down Geyser.
+[17:36:38] [Server thread/INFO]: Geyser shutdown successfully.
+[17:36:38] [WebSocketConnectReadThread-69/INFO]: The skin uploader has been closed
+[17:36:40] [Server thread/INFO]: Stopping server
+[17:36:40] [Server thread/INFO]: Saving players
+[17:36:40] [Server thread/INFO]: Saving worlds
+[17:36:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:36:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:36:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:36:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:36:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:36:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:36:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
