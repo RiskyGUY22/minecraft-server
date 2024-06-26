@@ -1,9 +1,9 @@
-[16:57:50] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
-[16:57:50] [main/WARN]: Mod resolution failed
-[16:57:50] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE geyser-fabric 2.4.0-SNAPSHOT {depends fabric @ [*]}, ROOT_FORCELOAD_SINGLE geyser-fabric 2.4.0-SNAPSHOT]
-[16:57:50] [main/INFO]: Reason: [HARD_DEP geyser-fabric 2.4.0-SNAPSHOT {depends fabric @ [*]}]
-[16:57:50] [main/INFO]: Fix: add [add:fabric 1 ([(-∞,∞)])], remove [], replace []
-[16:57:50] [main/ERROR]: Incompatible mods found!
+[16:58:51] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
+[16:58:52] [main/WARN]: Mod resolution failed
+[16:58:52] [main/INFO]: Immediate reason: [HARD_DEP_NO_CANDIDATE geyser-fabric 2.4.0-SNAPSHOT {depends fabric @ [*]}, ROOT_FORCELOAD_SINGLE geyser-fabric 2.4.0-SNAPSHOT]
+[16:58:52] [main/INFO]: Reason: [HARD_DEP geyser-fabric 2.4.0-SNAPSHOT {depends fabric @ [*]}]
+[16:58:52] [main/INFO]: Fix: add [add:fabric 1 ([(-∞,∞)])], remove [], replace []
+[16:58:52] [main/ERROR]: Incompatible mods found!
 net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
 A potential solution has been determined, this may resolve your problem:
 	 - Install fabric, any version.
