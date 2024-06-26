@@ -1,0 +1,39 @@
+[16:37:59] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
+[16:37:59] [main/INFO]: Loading 4 mods:
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- java 22
+	- minecraft 1.21
+[16:37:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/home/thomas/Documents/minecraft-server/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[16:38:04] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:38:05] [main/INFO]: No existing world data, creating new world
+[16:38:05] [main/INFO]: Loaded 1290 recipes
+[16:38:06] [main/INFO]: Loaded 1399 advancements
+[16:38:07] [Server thread/INFO]: Starting minecraft server version 1.21
+[16:38:07] [Server thread/INFO]: Loading properties
+[16:38:07] [Server thread/INFO]: Default game type: SURVIVAL
+[16:38:07] [Server thread/INFO]: Generating keypair
+[16:38:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:38:07] [Server thread/INFO]: Using epoll channel type
+[16:38:07] [Server thread/INFO]: Preparing level "world"
+[16:38:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:38:10] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[16:38:11] [Worker-Main-5/INFO]: Preparing spawn area: 2%
+[16:38:11] [Worker-Main-5/INFO]: Preparing spawn area: 18%
+[16:38:12] [Worker-Main-4/INFO]: Preparing spawn area: 18%
+[16:38:12] [Worker-Main-3/INFO]: Preparing spawn area: 51%
+[16:38:13] [Worker-Main-1/INFO]: Preparing spawn area: 51%
+[16:38:13] [Worker-Main-2/INFO]: Preparing spawn area: 51%
+[16:38:13] [Server thread/INFO]: Time elapsed: 3138 ms
+[16:38:13] [Server thread/INFO]: Done (6.508s)! For help, type "help"
+[16:38:16] [Server thread/INFO]: Stopping the server
+[16:38:16] [Server thread/INFO]: Stopping server
+[16:38:16] [Server thread/INFO]: Saving players
+[16:38:16] [Server thread/INFO]: Saving worlds
+[16:38:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:38:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:38:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:38:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:38:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:38:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:38:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
